@@ -1,0 +1,39 @@
+.footer {
+    margin-top: 70px;
+    background-color: #a82c48;
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    text-align: center;
+}
+
+.footer ul:first-of-type {
+    margin-bottom: 35px;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.footer ul li a {
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer ul li a:hover {
+    color: #43121d;
+    font-size: 18px;
+}
+
+.footer ul:last-of-type li a {
+    font-size: 20px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 40px;
+}

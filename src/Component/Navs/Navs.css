@@ -1,0 +1,43 @@
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+nav a {
+    color: #a82c48 !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #43121d !important;
+}
+
+nav #lastnav {
+    background-color: #a82c48;
+    border: 3px solid #a82c48;
+    box-sizing: border-box;
+    color: #fff !important;
+    padding: 5px 17px;
+    margin-left: 10px;
+}
+
+nav #lastnav:hover {
+    background-color: #fff;
+    color: #a82c48 !important;
+    transition: 0.3s ease-in-out;
+}
+
+nav img {
+    max-width: 100%;
+    height: 90%;
+}
